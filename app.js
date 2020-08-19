@@ -9,10 +9,7 @@ app.use(cors());
 //Use of cookies
 app.use(cookieParser());
 
-
-
 app.use(express.static("oneschool"))
-
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, ()=>{
