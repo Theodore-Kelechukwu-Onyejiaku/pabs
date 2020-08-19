@@ -1,13 +1,6 @@
 const express = require("express");
 const app = express();
 
-app.use(bodyparser.urlencoded({
-    extended: true
-}));
-app.use(bodyparser.json());
-app.use(cors());
-//Use of cookies
-app.use(cookieParser());
 
 app.use(express.static("oneschool"))
 
